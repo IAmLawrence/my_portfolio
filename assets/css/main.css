@@ -3250,6 +3250,21 @@ input, select, textarea {
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
+			transition: opacity 1.2s ease;
+			transition-delay: 0.4s;
+			background: rgba(30, 37, 45, 0.85); /* Slight transparency */
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+		}
+
+		#wrapper.fade-in:before {
+			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out;
@@ -4620,7 +4635,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7rem;
 		}
 
