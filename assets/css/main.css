@@ -2675,6 +2675,11 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+	
+	.skill-icon img {
+		width: 16px !important;
+		height: 16px !important;
+		}
 
 /* Actions */
 
@@ -2797,6 +2802,16 @@ input, select, textarea {
 						}
 
 		}
+
+	.skill-icon {
+		transition: all 0.2s ease-in-out;
+	}
+
+	.skill-icon:hover {
+		transform: scale(1.08);
+		background-color: #78adfd; 
+	}
+
 
 /* Icons */
 
